@@ -1,0 +1,94 @@
+{% load rest_framework %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" >
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
+  </head>
+  <style>
+  h1{color: white;font-size: 35px;}
+  button{margin-top:20px;margin-left:44%;}
+  body{font-family: century-gothic;background-color:darkblue;}
+tr:nth-child(even) {  background-color: silver;}
+tr:nth-child(odd) {  background-color: white;}
+  table,th,td {    border-collapse: collapse;padding : 15px;}
+    tr {flex-wrap: wrap;}
+    th.leftContent{color:darkblue;text-align:center;}
+    th{text-align:center;}
+    .btn
+{
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover
+{
+	background-color: white;
+	color: #000;
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+  </style>
+  <body>
+  <div style="display: flex;justify-content: center;"><h1>Product Details</h1></div>
+    <div style="justify-content: center;display: flex;align-self:center;margin-top: 40px;">
+      <table style="width:65%">
+        <tr>
+          <th>Product Id</th>
+          <th class="leftContent" >{{ Product.Product_Id  }}</th>
+        </tr>
+        <tr>
+          <th>Product Name</th>
+          <th class="leftContent">{{ Product.Product_Name  }}</th>
+        </tr>
+        <tr>
+          <th>Product Category</th>
+          <th class="leftContent">{{ Product.Product_Category  }}</th>
+        </tr>
+        <tr>
+          <th>Product Subcategory</th>
+          <th class="leftContent">{{ Product.Product_Sub_Category  }}</th>
+        </tr>
+        <tr>
+          <th>Product Price</th>
+          <th class="leftContent">{{ Product.Product_Price  }}</th>
+        </tr>
+        <tr>
+          <th>Product Weight</th>
+          <th class="leftContent">{{ Product.Product_Weight  }}</th>
+        </tr>
+        <tr>
+          <th>Product Location</th>
+          <th class="leftContent">{{ Product.Product_Location  }}</th>
+        </tr>
+        <tr>
+          <th>Product Availability</th>
+          <th class="leftContent">{{ Product.Product_Availability  }}</th>
+        </tr>
+        <tr>
+          <th>Product Viewed </th>
+          <th class="leftContent">{{ Product.Product_On_Click_Count  }}</th>
+        </tr>
+      </table>
+      <div class="button">
+  <a href="javascript:window.history.back()" class="btn">Go Back</a>
+    <a href="/Location/{{ Product.Product_Id }}" class="btn">Go to Product</a>
+		</div>
+  </body>
+</html>

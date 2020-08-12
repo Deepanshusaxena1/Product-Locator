@@ -1,0 +1,132 @@
+{% load rest_framework %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" >
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
+  </head>
+  <style>
+  h1{color: white;font-size: 35px;}
+  button{margin-top:20px;margin-left:44%;}
+  body{font-family: century-gothic;background-color:darkblue;}
+tr:nth-child(even) {  background-color: silver;}
+tr:nth-child(odd) {  background-color: white;}
+  table,th,td {    border-collapse: collapse;padding : 15px;}
+    tr {flex-wrap: wrap;}
+    th.leftContent{color:darkblue;text-align:center;}
+    th{text-align:center;}
+    .btn
+{
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover
+{
+	background-color: white;
+	color: #000;
+}
+.button{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+  </style>
+  <body>
+    <div style="display: flex;justify-content: center;"><h1>Product</h1></div>
+    <div style="justify-content: center;display: flex;align-self:center;margin-top: 40px;">
+      <table style="width:70%">
+        <tr>
+          <th>Product Id</th>
+          <th class="leftContent">{{ LocateProduct.Product_Id  }}</th>
+        </tr>
+        <tr>
+          <th>Product_Name</th>
+          <th class="leftContent">{{ LocateProduct.Product_Name  }}</th>
+        </tr>
+        <tr>
+          <th>Shelf ID</th>
+          <th class="leftContent">{{ LocateProduct.Product_Location  }}</th>
+        </tr>
+        <tr>
+          <th>Navigation to Shelf</th>
+          <th class="leftContent">{{ LocateProduct.Product_Location.Shelf_Id_Location  }}</th>
+        </tr>
+      </table>
+    </div>
+      <div class="button">
+  <a href="javascript:window.history.back()" class="btn">Go Back</a>
+    <a href="https://www.latlong.net/c/?lat={{LocateProduct.Product_Location.Shelf_Latitude}}&long={{LocateProduct.Product_Location.Shelf_Longitude}}" class="btn">Find Product on Map</a>
+		</div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

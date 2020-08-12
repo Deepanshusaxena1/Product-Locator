@@ -1,0 +1,80 @@
+<!--{% load rest_framework %}-->
+
+</body>
+</html>
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+
+    <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" >
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
+</head>
+<style>
+body{
+font-family: century-gothic;
+background-color:darkblue;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th{
+background-color:darkblue;
+}
+
+tr:nth-child(even) {
+  background-color: silver;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn
+{
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	color: blue;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover
+{
+	background-color: darkblue;
+	color: #000;
+}
+
+
+</style>
+
+<table align="center" style="width:65%">
+    <th>Product Id</th>
+    <th>Product Name</th>
+    <th>Locate the Product</th>
+        {% for Current_Product in Products %}
+  <tr>
+    <td>{{ Current_Product.Product_Id }}</td>
+    <td>{{ Current_Product.Product_Name }}</td>
+<!--      <td><button><a href="/Products/Details/{{ Current_Product.Product_Id}}">Go to Product</a></button></td>-->
+    <td><a href="/ClickedIt/{{ Current_Product.Product_Id}}" class="btn">Go to Product</a></td>
+  </tr>
+        {% endfor %}
+
+</table>

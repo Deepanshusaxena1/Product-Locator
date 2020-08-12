@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08443acb-8fb1-48f3-96ca-584b68ae81a5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML4 File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y1na46kZkITmrLhgIZi3XQXAAF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lowe" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08443acb-8fb1-48f3-96ca-584b68ae81a5" name="Default Changelist" comment="" />
+      <created>1582119028302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582119028302</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="136" width="1000" height="839" key="#Inspections" timestamp="1582177248193">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state x="496" y="136" width="1000" height="839" key="#Inspections/83.34.1837.1046@83.34.1837.1046" timestamp="1582177248193" />
+    <state x="638" y="343" width="716" height="425" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582177229431">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state x="638" y="343" width="716" height="425" key="#com.intellij.fileTypes.FileTypeChooser/83.34.1837.1046@83.34.1837.1046" timestamp="1582177229431" />
+    <state x="308" y="98" key="SettingsEditor" timestamp="1586424617142">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state x="235" y="98" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1583485132406" />
+    <state x="308" y="98" key="SettingsEditor/83.34.1837.1046@83.34.1837.1046" timestamp="1586424617142" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1582998697419">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/83.34.1837.1046@83.34.1837.1046" timestamp="1582998697419" />
+    <state x="581" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586437894585">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state x="521" y="345" key="com.intellij.ide.util.TipDialog/0.34.1920.1046@0.34.1920.1046" timestamp="1583495488149" />
+    <state x="581" y="345" key="com.intellij.ide.util.TipDialog/83.34.1837.1046@83.34.1837.1046" timestamp="1586437894585" />
+    <state x="732" y="174" width="529" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582483252610">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state x="732" y="174" width="529" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/83.34.1837.1046@83.34.1837.1046" timestamp="1582483252610" />
+    <state x="580" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1583075124051">
+      <screen x="83" y="34" width="1837" height="1046" />
+    </state>
+    <state x="580" y="45" width="840" height="1034" key="search.everywhere.popup/83.34.1837.1046@83.34.1837.1046" timestamp="1583075124051" />
+  </component>
+</project>
